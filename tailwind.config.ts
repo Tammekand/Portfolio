@@ -7,8 +7,8 @@ export default {
 			colors: {
 				'green-light': '#17A34A',
 				'green-dark': '#22C55D',
-				light: '#fff',
-				dark: '#030712',
+				light: '#E2E7F3',
+				dark: '#182139',
 			},
 			fontFamily: {
 				sans: [

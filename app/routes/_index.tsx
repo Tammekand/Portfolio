@@ -41,12 +41,25 @@ export default function Index() {
 		<div className="flex h-screen items-center justify-center">
 			<div className="flex flex-col items-center gap-16">
 				<header className="flex flex-col items-center gap-9">
-					<h1 className="leading text-9xl font-bold text-green-light dark:green-dark">
-						Hello!
+					<h1 className="leading text-9xl font-bold text-green-light dark:text-green-dark">
+						Hey!
 					</h1>
-					<p className="text-gray-600 dark:text-gray-400 text-3xl">
-						This is Axel's Portfolio
-					</p>
+					<div className="text-gray-600 dark:text-gray-400 text-3xl mx-12">
+						<p>
+							I'm{' '}
+							<span className="text-green-light dark:text-green-dark">
+								Axel
+							</span>
+							, a{' '}
+							<span className="underline text-green-light dark:text-green-dark">
+								Software Developer
+							</span>
+							, and this is my Portfolio.
+						</p>
+						{'\n'}
+						<p>Feel free to look around!</p>
+					</div>
+
 					<ul>
 						<li>{linkButton('About Me', '/about')}</li>
 					</ul>
