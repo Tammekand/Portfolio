@@ -3,7 +3,7 @@ import { Link } from '@remix-run/react';
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: 'Portfolio' },
+		{ title: 'Axel-Martin Tammekand | Portfolio' },
 		{ name: 'description', content: "Hello! This is Axel's Portfolio!" },
 	];
 };
