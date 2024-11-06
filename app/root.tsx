@@ -11,6 +11,7 @@ import { SpeedInsights } from '@vercel/speed-insights/remix';
 
 import './tailwind.css';
 
+<Analytics />;
 export const links: LinksFunction = () => [
 	{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 	{
@@ -42,6 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Scripts />
 				<Analytics />
 				<SpeedInsights />
+
 			</body>
 		</html>
 	);
